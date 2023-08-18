@@ -52,10 +52,8 @@ function everythingFilled() {
 		year.value !== 'nil' &&
 		rollNo.value !== ''
 	) {
-		console.log('Everything is filled');
 		return true;
 	}
-	console.log('Everything is not filled');
 	return false;
 }
 
@@ -68,9 +66,7 @@ function everythingFilledCorrectly() {
 		year.value === 'correct' &&
 		rollNo.value === '0325877'
 	) {
-		console.log('Everything is filled correctly');
 		return true;
 	}
-	console.log('Everything is not filled correctly');
 	return false;
 }
