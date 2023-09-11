@@ -37,7 +37,7 @@ function validator() {
 		mainLink.removeAttribute('download');
 		alert('Wrong Roll No.');
 	} else {
-		mainLink.setAttribute('href', '.#');
+		mainLink.setAttribute('href', '#');
 		mainLink.removeAttribute('download');
 		alert('Fill All the values');
 	}
